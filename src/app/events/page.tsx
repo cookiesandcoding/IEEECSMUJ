@@ -80,7 +80,7 @@ export default function Page() {
                 </p>
               </div>
 
-              {!event.completed ? (
+              {true ? (
                 <div
                   onClick={() => handleRegisterClick(event.registerUrl)}
                   className="mt-4 block rounded-full bg-[#FFA300] px-4 py-2 font-semibold text-white transition duration-300 hover:bg-yellow-700 cursor-pointer"
